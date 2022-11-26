@@ -1171,6 +1171,7 @@ progress {
   .col-md-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    align-self: center;
   }
 
   .col-md-5 {
@@ -4631,6 +4632,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  align-self: center;
 }
 .card > hr {
   margin-right: 0;
@@ -11660,11 +11662,12 @@ body {
 
 .contact-section {
   padding-top: 5rem;
-  padding-left: 25rem;
+  align-self: center;
 }
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
+  align-self: center;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
